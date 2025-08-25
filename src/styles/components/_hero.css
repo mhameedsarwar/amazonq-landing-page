@@ -1,0 +1,9 @@
+.hero-carousel .swiper-pagination-bullet {
+  background-color: #fff !important;
+  opacity: 0.5;
+}
+
+.hero-carousel .swiper-pagination-bullet-active {
+  background-color: #fff !important;
+  opacity: 1;
+}

@@ -1,0 +1,249 @@
+.mega-menu-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.mega-menu-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+}
+
+.nav-item-with-mega {
+  position: relative;
+}
+
+.mega-menu-dropdown {
+  position: fixed;
+  top: 98px;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 50px 0;
+  z-index: 1000;
+  display: none;
+}
+.sticky-header .mega-menu-dropdown{
+  top: 52px;
+}
+.mega-menu-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
+}
+
+.nav-item-with-mega:hover .mega-menu-dropdown,
+.mega-menu-dropdown:hover {
+  display: block;
+}
+
+
+
+.mega-menu-section-title {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  color: #000;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.mega-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-menu-items li {
+  margin-bottom: 16px;
+}
+
+.mega-menu-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+  line-height: 1.4;
+}
+
+.mega-menu-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.mega-menu-featured {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.mega-menu-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mega-menu-featured-content {
+  padding: 24px;
+}
+
+.mega-menu-featured-content h6 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.mega-menu-featured-content p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.mega-menu-featured-content .btn {
+  font-size: 12px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* Currency dropdown styles */
+.Navbar-currencySelect {
+  background-color: transparent !important;
+}
+
+.Navbar-currencySelect option {
+  color: #666666 !important;
+}
+
+/* Offcanvas width adjustment */
+.offcanvas {
+  width: 300px !important;
+}
+
+.mega-menu-featured-card:hover {
+  transform: translateY(-2px);
+}
+
+.mega-menu-featured-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.mega-menu-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mega-menu-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.mega-menu-card-content h6 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: white;
+  flex: 1;
+}
+
+.mega-menu-card-content i {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+/* Sale link styling */
+.sale-link {
+  color: #d0021b !important;
+}
+
+/* Header link hover effects */
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
+.mega-menu-link:hover {
+  text-decoration: underline !important;
+}
+
+/* Mobile mega menu styles */
+.mobile-nav-section {
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-nav-toggle {
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+
+.mobile-nav-toggle:hover {
+  background-color: #f8f9fa !important;
+}
+
+.mobile-submenu {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.mobile-submenu-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.mobile-submenu-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-submenu-link:last-child {
+  border-bottom: none;
+}
+
+.mobile-submenu-link:hover {
+  color: #000;
+  text-decoration: none;
+}

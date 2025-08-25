@@ -1,0 +1,78 @@
+.EverlaneOnYou-title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.EverlaneOnYou-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+
+.EverlaneOnYou-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.EverlaneOnYou-desktopImageContainer {
+  width: 100%;
+  height: 225px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.EverlaneOnYou-mobileImageContainer {
+  width: 100%;
+  height: 180px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.EverlaneOnYou-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.EverlaneOnYou-cartButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EverlaneOnYou-cartIcon {
+  font-size: 12px;
+}
+
+.EverlaneOnYou-desktopNavButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.EverlaneOnYou-desktopNavButtonPrev {
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.EverlaneOnYou-desktopNavButtonNext {
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.EverlaneOnYou-mobileNavButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+.HeroCarousel-slide {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  min-height: 500px;
+}
+
+.HeroCarousel-slide-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop');
+}
+
+.HeroCarousel-slide-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&h=600&fit=crop');
+}
+
+.HeroCarousel-slide-3 {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1445205170230-053b83016050?w=1200&h=600&fit=crop');
+}
+
+.HeroCarousel-content {
+  max-width: 500px;
+}
+
+.HeroCarousel-title {
+  font-size: 46px;
+  font-weight: 400;
+}
+
+.HeroCarousel-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.HeroCarousel-button {
+  font-size: 14px;
+  font-weight: 400;
+  width: 240px;
+  height: 41px;
+}

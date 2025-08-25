@@ -1,0 +1,29 @@
+.promotional-block:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 991px) {
+  .promotional-block {
+    height: 400px !important;
+  }
+  
+  .promotional-block h3 {
+    font-size: 32px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .promotional-block {
+    height: 350px !important;
+  }
+  
+  .promotional-block h3 {
+    font-size: 28px !important;
+  }
+  
+  .promotional-block button {
+    width: 200px !important;
+    height: 38px !important;
+  }
+}

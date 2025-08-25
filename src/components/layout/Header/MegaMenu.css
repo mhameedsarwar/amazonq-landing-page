@@ -1,0 +1,41 @@
+.mega-menu-overlay {
+  background: white;
+  border-top: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.mega-menu {
+  padding: 40px 0;
+}
+
+.mega-menu-section-title {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.mega-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-menu-items li {
+  margin-bottom: 12px;
+}
+
+.mega-menu-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.mega-menu-link:hover {
+  color: #000;
+  text-decoration: none;
+}

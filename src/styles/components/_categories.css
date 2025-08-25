@@ -1,0 +1,12 @@
+.category-item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+  transform: translateY(-5px);
+}
+
+.category-item:hover .category-link span {
+  text-decoration: underline !important;
+}

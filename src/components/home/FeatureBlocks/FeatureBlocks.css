@@ -1,0 +1,22 @@
+.FeatureBlocks-iconContainer {
+  width: 78px;
+  height: 78px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+
+.FeatureBlocks-icon {
+  font-size: 32px;
+  color: #333;
+}
+
+.FeatureBlocks-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.FeatureBlocks-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}

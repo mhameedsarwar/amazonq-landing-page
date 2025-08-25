@@ -1,0 +1,13 @@
+.PromotionalBlocks-block {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.PromotionalBlocks-title {
+  font-size: 40px;
+  font-weight: 400;
+}

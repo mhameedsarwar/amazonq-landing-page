@@ -1,0 +1,19 @@
+.testimonials-pagination .swiper-pagination-bullet {
+  background-color: #000 !important;
+  opacity: 0.3;
+}
+
+.testimonials-pagination .swiper-pagination-bullet-active {
+  background-color: #000 !important;
+  opacity: 1;
+}
+
+.everlane-pagination .swiper-pagination-bullet {
+  background-color: #000 !important;
+  opacity: 0.3;
+}
+
+.everlane-pagination .swiper-pagination-bullet-active {
+  background-color: #000 !important;
+  opacity: 1;
+}

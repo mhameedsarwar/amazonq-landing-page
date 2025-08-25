@@ -1,0 +1,20 @@
+/* Main stylesheet entry point */
+@import 'components/_categories.css';
+@import 'components/_hero.css';
+@import 'components/_promotional-blocks.css';
+@import 'components/_testimonials.css';
+@import 'components/_footer.css';
+@import 'utilities/_shared.css';
+@import 'utilities/_responsive.css';
+@import 'utilities/_mobile-fixes.css';
+
+/* Global styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+/* Utility classes */
+.text-decoration-underline {
+  text-decoration: underline !important;
+}

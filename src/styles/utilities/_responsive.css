@@ -1,0 +1,57 @@
+/* Mobile First Responsive Styles */
+
+/* Hero Section Mobile */
+@media (max-width: 767px) {
+  .hero-slide {
+    height: 50vh !important;
+    min-height: 400px !important;
+  }
+  
+  .hero-content {
+    max-width: 90% !important;
+    padding: 0 1rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem !important;
+  }
+  
+  .hero-content .lead {
+    font-size: 1rem;
+  }
+}
+
+/* Categories Mobile */
+@media (max-width: 575px) {
+  .category-image-wrapper img {
+    height: 150px !important;
+  }
+  
+  .category-item .fw-bold {
+    font-size: 0.7rem !important;
+  }
+}
+
+/* Header Mobile */
+@media (max-width: 991px) {
+  .position-absolute.start-50 {
+    position: static !important;
+    transform: none !important;
+    margin: 0 auto;
+  }
+}
+
+/* Top Bar Mobile */
+@media (max-width: 767px) {
+  .bg-dark .small {
+    font-size: 0.7rem !important;
+  }
+  
+  .bg-dark .d-flex:first-child span {
+    display: none;
+  }
+  
+  .bg-dark .d-flex:first-child a {
+    font-size: 0.75rem;
+  }
+}

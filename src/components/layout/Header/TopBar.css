@@ -1,0 +1,13 @@
+/* Currency dropdown styles */
+.TopBar-currencySelect {
+  background-color: transparent !important;
+}
+
+.TopBar-currencySelect option {
+  color: #666666 !important;
+}
+
+/* TopBar link hover effects */
+.bg-dark a:hover {
+  text-decoration: underline !important;
+}

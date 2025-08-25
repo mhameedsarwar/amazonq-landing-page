@@ -1,0 +1,15 @@
+.Categories-desktopImage {
+  height: 200px;
+}
+
+.Categories-mobileImage {
+  height: 150px;
+}
+
+.Categories-desktopCategoryName {
+  font-size: 0.75rem;
+}
+
+.Categories-mobileCategoryName {
+  font-size: 0.7rem;
+}

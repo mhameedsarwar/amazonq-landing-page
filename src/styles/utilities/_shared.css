@@ -1,0 +1,82 @@
+/* Shared Navigation Button Styles */
+.nav-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-button-desktop {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.nav-button-prev {
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-button-next {
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Shared Image Container Styles */
+.image-container {
+  width: 100%;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.image-responsive {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-cover {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Shared Typography */
+.text-small {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.text-medium {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-large {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-xl {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.text-xxl {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: #666;
+}
+
+/* Shared Button Styles */
+.button-standard {
+  font-size: 14px;
+  font-weight: 400;
+  width: 240px;
+  height: 41px;
+}

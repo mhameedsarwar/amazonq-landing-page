@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amazon-q-ecommerce-landingpage/static/css/main.458dd41e.css",
-    "main.js": "/amazon-q-ecommerce-landingpage/static/js/main.871372ce.js",
-    "static/media/fa-solid-900.woff2": "/amazon-q-ecommerce-landingpage/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
-    "static/media/fa-brands-400.woff2": "/amazon-q-ecommerce-landingpage/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
-    "static/media/fa-regular-400.woff2": "/amazon-q-ecommerce-landingpage/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
-    "static/media/fa-v4compatibility.woff2": "/amazon-q-ecommerce-landingpage/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
-    "index.html": "/amazon-q-ecommerce-landingpage/index.html",
-    "main.458dd41e.css.map": "/amazon-q-ecommerce-landingpage/static/css/main.458dd41e.css.map",
-    "main.871372ce.js.map": "/amazon-q-ecommerce-landingpage/static/js/main.871372ce.js.map"
+    "main.css": "/amazonq-landing-page/static/css/main.d5ab8dcc.css",
+    "main.js": "/amazonq-landing-page/static/js/main.6a24f597.js",
+    "static/media/fa-solid-900.woff2": "/amazonq-landing-page/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/amazonq-landing-page/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
+    "static/media/fa-regular-400.woff2": "/amazonq-landing-page/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/fa-v4compatibility.woff2": "/amazonq-landing-page/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
+    "index.html": "/amazonq-landing-page/index.html",
+    "main.d5ab8dcc.css.map": "/amazonq-landing-page/static/css/main.d5ab8dcc.css.map",
+    "main.6a24f597.js.map": "/amazonq-landing-page/static/js/main.6a24f597.js.map"
   },
   "entrypoints": [
-    "static/css/main.458dd41e.css",
-    "static/js/main.871372ce.js"
+    "static/css/main.d5ab8dcc.css",
+    "static/js/main.6a24f597.js"
   ]
 }

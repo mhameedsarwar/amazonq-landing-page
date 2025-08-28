@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "serve": "npx serve -s build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",

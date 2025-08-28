@@ -1,10 +1,10 @@
-Project Information:
+# Project Information:
 
     Project Name: "Amazon Q E-commerce Landing Page"
     Purpose: E-commerce landing page showcasing products
     Unique Selling Point: Entirely built using Amazon Q AI coding assistant
 
-Key Features
+# Key Features
 
     Multi-currency support with dropdown selector
     Newsletter subscription functionality
